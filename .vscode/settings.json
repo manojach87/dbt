@@ -1,0 +1,24 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 33061,
+            "driver": "MySQL",
+            "name": "db",
+            "database": "hue",
+            "username": "manoj",
+            "password": "secret"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "DuckDB",
+            "name": "lego",
+            "database": "E:\\duckdb\\lego.db"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}

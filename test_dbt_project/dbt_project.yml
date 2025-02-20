@@ -36,3 +36,9 @@ models:
     #   +materialized: view
     lego:
       materialized: table
+    dual:
+      materialized: table
+    batchcurr:
+      materialized: table
+vars:
+  business_date: "{{ get_business_date() }}"
